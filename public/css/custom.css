@@ -1,0 +1,14 @@
+/* Add here all your CSS customizations */
+/* Change the SVG color at nromal state */
+.custom-featured-boxes-style-1 .featured-box .box-content svg {
+	fill: white;
+}
+
+/* Change the SVG color on hover */
+.custom-featured-boxes-style-1 .featured-box:hover .box-content svg {
+	fill: orange;
+}
+
+html .text-color-primary, html .text-primary {
+    color: #657bb4 !important;
+}
