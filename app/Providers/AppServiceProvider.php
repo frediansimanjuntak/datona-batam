@@ -27,5 +27,8 @@ class AppServiceProvider extends ServiceProvider
         if (str_contains(\Config::get('app.url'), 'https://')) {
             \URL::forceScheme('https');
         }
+        if  ( \App :: environment ( 'production' ))  { 
+            \URL :: forceScheme ( 'https' ); 
+        }
     }
 }
